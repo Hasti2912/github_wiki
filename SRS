@@ -1,0 +1,32 @@
+
+# Software Requirements Specification (SRS)
+
+## 1. Introduction
+**Purpose:** Describe the purpose of the software and what problem it solves.  
+**Scope:** Outline the main objectives and boundaries of the system.  
+**Definitions:** List key terms used throughout the document.
+
+## 2. Overall Description
+- **Product Perspective:** Explain how the system fits into a larger context.
+- **Product Functions:** High-level features or modules.
+- **User Characteristics:** Who are your users?
+- **Constraints:** Technical or regulatory limitations.
+
+## 3. System Features and Requirements
+### Functional Requirements
+- FR1: The system shall allow users to register with an email and password.
+- FR2: The system shall generate daily reports in PDF format.
+
+### Non-Functional Requirements
+(Performance, scalability, usability, reliability, etc.)
+
+## 4. External Interface Requirements
+- **User Interfaces:** Describe UI or CLI.
+- **APIs:** List endpoints and request/response formats.
+- **Hardware Interfaces:** (if applicable)
+
+## 5. System Architecture
+Include diagrams (context, component, deployment).
+
+## 6. Future Enhancements
+List planned improvements or features.
