@@ -1,0 +1,42 @@
+
+# Docker Setup Guide
+
+## 1. Requirements
+- Docker (version X.X or higher)
+- Docker Compose (optional)
+
+## 2. Build the Image
+```bash
+docker build -t <your_app_name>:latest .
+```
+
+## 3. Run the Container
+```bash
+docker run -d -p 8080:8080 <your_app_name>:latest
+```
+
+## 4. Using Docker Compose
+```yaml
+version: "3.8"
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - ENV=production
+```
+Run:
+```bash
+docker-compose up -d
+```
+
+## 5. Troubleshooting
+- Use `docker logs <container_id>` to check logs.
+- Verify Docker daemon is running.
+
+## 6. Updating Images
+```bash
+docker pull <your_app_name>
+docker-compose up -d --build
+```
