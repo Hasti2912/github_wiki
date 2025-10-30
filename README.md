@@ -29,11 +29,5 @@ Welcome to the project documentation hub. This index links to all essential docu
 
 ---
 
-## 📈 Recommended Next Steps
-- Add architecture diagrams using tools like **Mermaid**, **draw.io**, or **Lucidchart**.  
-- Automate your Docker and security scanning via CI/CD (e.g., GitHub Actions).  
-- Keep this Wiki up to date as new versions are released.
-
----
 
 
